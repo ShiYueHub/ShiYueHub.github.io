@@ -1,22 +1,45 @@
-# ShiYue · 独立小游戏工作室
+<p align="center">
+  <img src="assets/favicon.png" width="88" height="88" alt="ShiYue 工作室图标">
+</p>
 
-ShiYue 工作室网站，专注小游戏，展示《史莱姆邮差》《小岛守卫战》《末日小岛模拟器》。原生 HTML、CSS 和少量 JavaScript，无第三方前端依赖，适配手机与桌面。
+<h1 align="center">ShiYue · 独立小游戏工作室</h1>
 
-## 本地预览
+<p align="center">在小小的世界，遇见一点美好。</p>
 
-```sh
-python3 scripts/build.py
-python3 -m http.server 4173 --bind 127.0.0.1 --directory dist
-```
+<p align="center">
+  <a href="https://shiyuehub.github.io/">访问工作室官网</a>
+</p>
 
-打开 http://127.0.0.1:4173 。游戏介绍使用原生 details，即使 JavaScript 不可用仍可展开。
+ShiYue 是一个专注小游戏的独立工作室。我们把小小的想象，做成可以亲手探索的世界：送达一封信，建起一座营地，守住一盏灯。
 
-## GitHub Pages
+## 我们的小游戏
 
-推荐工作室地址 `https://shiyuehub.github.io`，对应仓库 `ShiYueHub/ShiYueHub.github.io`。已有个人站仓库 `qdsfdhvh/qdsfdhvh.github.io`，本项目不覆盖它。
+### 史莱姆邮差
 
-在仓库 Settings → Pages 选择 GitHub Actions。推送 main 后，工作流仅发布 `dist/` 中的网页和明确列出的六项图片资源。开发记录和兄弟项目源码不会包含在 Pages 成品中。
+**微信小游戏 · 已上线**
 
-修改简介：`index.html`。修改样式：`styles.css`。图标原图：`assets/studio-icon.png`。
+蓄力一跳，把心意送达。和小邮差一起穿过森林、沼泽与雪谷，在弹台、风芽、炮台与冰面之间寻找下一处落点。六章、共 60 关，让每一封信找到等待它的人。
 
-内容与图片来源、品牌介绍见 [docs/brand-and-content.md](docs/brand-and-content.md)。
+[了解《史莱姆邮差》](https://shiyuehub.github.io/#slime-post)
+
+### 小岛守卫战
+
+**开发中 · 敬请期待**
+
+从一片高地开始，采集、建设、布置防线。让营地一点点长大，也让每一次坚守都有了意义。
+
+[了解《小岛守卫战》](https://shiyuehub.github.io/#island-guard)
+
+### 末日小岛模拟器
+
+**开发中 · 敬请期待**
+
+白天迎接来船，经营海岛上的补给站；夜晚守住营地。在不太温柔的世界里，把这一盏灯留下。
+
+[了解《末日小岛模拟器》](https://shiyuehub.github.io/#last-stop-island)
+
+---
+
+本仓库维护 [ShiYue 工作室官网](https://shiyuehub.github.io/)的页面与展示素材，不包含游戏源码。站内宣传插画与概念图不代表最终实机画面。
+
+网站维护与部署方式见 [维护说明](docs/development.md)。
