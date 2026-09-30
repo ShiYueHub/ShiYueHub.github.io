@@ -1,0 +1,7 @@
+.DS_Store
+.planning/
+dist/
+qa/
+__pycache__/
+assets/island-guard.png
+assets/last-stop-island.png
