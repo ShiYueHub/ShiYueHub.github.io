@@ -5,3 +5,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 /* Keep decorative orbits inside small viewports without clipping content. */
 @media(max-width:760px){.orbit-one{width:96%;height:94%;left:2%;top:0;transform:none}.orbit-two{display:none}}
+
+.development.released{background:#ddebd8;color:#315b35}.development.released i{background:#42864b}
