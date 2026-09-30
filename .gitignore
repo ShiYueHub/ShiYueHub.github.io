@@ -3,5 +3,6 @@
 dist/
 qa/
 __pycache__/
-assets/island-guard.png
-assets/last-stop-island.png
+assets-originals/island-guard.png
+assets-originals/last-stop-island.png
+node_modules/

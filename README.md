@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/favicon.png" width="88" height="88" alt="ShiYue 工作室图标">
+  <img src="public/assets/favicon.png" width="88" height="88" alt="ShiYue 工作室图标">
 </p>
 
 <h1 align="center">ShiYue · 独立小游戏工作室</h1>

@@ -7,3 +7,31 @@
 @media(max-width:760px){.orbit-one{width:96%;height:94%;left:2%;top:0;transform:none}.orbit-two{display:none}}
 
 .development.released{background:#ddebd8;color:#315b35}.development.released i{background:#42864b}
+
+.game-play{display:flex;flex-direction:column;align-items:center;gap:14px;padding:24px 20px;margin-bottom:20px;border:1px dashed #c4cdb9;border-radius:12px;text-align:center;background:var(--paper)}
+.miniprogram-code{display:block;width:172px;max-width:100%}
+.miniprogram-code img{width:100%;height:auto}
+.play-title{margin:0 0 6px;font-size:13px;font-weight:600;line-height:1.6}
+.play-hint{margin:0;color:var(--muted);font-size:11px;line-height:1.9}
+.code-download{display:inline-flex;align-items:center;gap:9px;margin-top:14px;padding:8px 14px;border:1px solid var(--line);border-radius:20px;font-size:11px;transition:color .2s,border-color .2s}
+.code-download:hover{color:var(--orange);border-color:var(--orange)}
+
+:is(.game-card,.game-detail) details{border:1px solid var(--line);border-radius:10px;background:#f0f1e7;overflow:hidden}
+:is(.game-card,.game-detail) summary{padding:15px 16px;gap:12px;transition:background .2s}
+:is(.game-card,.game-detail) summary:hover{background:#e9ede1}
+:is(.game-card,.game-detail) summary .detail-label{font-size:12px;color:var(--ink);transform:none}
+.detail-hide{display:none}
+details[open] .detail-show{display:none}
+details[open] .detail-hide{display:inline}
+:is(.game-card,.game-detail) summary .detail-toggle{display:grid;place-items:center;flex:0 0 24px;width:24px;height:24px;border-radius:50%;background:#e1e6d7;font-size:18px;color:var(--ink)}
+:is(.game-card,.game-detail) .detail-body{padding:16px 16px 4px;border-top:1px solid var(--line);font-size:12px;line-height:2}
+.game-card .game-play{margin-top:18px;margin-bottom:0;border:0;background:transparent;padding:22px 12px 12px}
+
+.all-games-link{text-align:center;margin-top:38px}.game-detail-link{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:16px 0;font-size:12px}.game-detail-link:hover,.back-link:hover{color:var(--orange)}.page-title{font-family:var(--serif);font-size:38px;margin:0}.page-intro{color:var(--muted);margin:18px 0 38px;line-height:1.9}.back-link{display:inline-block;font-size:12px;margin-bottom:28px}.game-detail{max-width:760px;margin:0 auto}.game-detail .game-art{height:380px}.game-detail .game-description{min-height:0;font-size:15px}.game-detail .detail-body{line-height:2;font-size:14px}.game-detail .game-play{margin-top:24px}.game-detail h3{font-size:36px}@media(max-width:760px){.game-detail .game-art{height:260px}.game-detail h3{font-size:29px}}
+
+.game-introduction{margin-top:24px;padding-top:24px;border-top:1px solid var(--line)}.game-introduction h2{font-family:var(--sans);font-size:18px;letter-spacing:0;margin-bottom:14px}.game-introduction .detail-body{border:0;padding:0;color:var(--muted);font-size:14px;line-height:2}
+
+.game-title{font-family:var(--sans);font-size:36px;line-height:1.5;margin:0 0 7px;font-weight:600;letter-spacing:-.7px}@media(max-width:760px){.game-title{font-size:29px}}
+
+@media(max-width:380px){.header .brand{font-size:24px;gap:7px}.header .brand img{width:30px;height:30px}nav{gap:12px;font-size:10px}.nav-contact{padding:7px 9px}.hero h1{font-size:32px}.hero .eyebrow{letter-spacing:.8px}.game-meta{flex-wrap:wrap;gap:8px}.ticker>.wrap{gap:10px}}
+@media(pointer:coarse){.game-detail-link,.back-link{min-height:44px;display:flex;align-items:center}.code-download{min-height:44px}}
