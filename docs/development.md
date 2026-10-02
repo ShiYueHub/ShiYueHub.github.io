@@ -31,6 +31,7 @@ npm run preview
 - `src/render.ts`：开发服务和构建阶段生成游戏卡片与详情 HTML，浏览器不运行渲染脚本。
 - `styles.css`：响应式样式。
 - `public/assets/`：按原路径发布的图片素材。
+- `public/games/slime-post/privacy/index.html`：《史莱姆邮差》TapTap 小游戏隐私政策，按原路径复制到 `dist/`，不依赖脚本或外部样式。
 - `vite.config.ts`：多页面构建入口，详情入口由游戏资料生成。
 
 新增游戏时，在 `src/games.ts` 添加资料，把图片放进 `public/assets/`，并参照现有详情页创建 `games/<slug>/index.html`。无需改首页或构建入口。
@@ -38,6 +39,8 @@ npm run preview
 ## 发布
 
 推送到 `main` 后，GitHub Actions 执行 `npm ci` 和 `npm run build`，发布 `dist/`。根站点使用默认 `base: /`。确认工作流成功后检查正式网站。
+
+隐私政策地址为 `https://shiyuehub.github.io/games/slime-post/privacy/`，入口位于《史莱姆邮差》详情页页脚。政策主体须与 TapTap 登记主体保持一致，不能仅因官网品牌为 ShiYue 而修改主体名称。合并部署后，需用中国大陆无代理网络确认页面可访问，再将该地址填入 TapTap；GitHub Pages 部署成功不代表审核端一定可访问。
 
 ## 内容约定
 
