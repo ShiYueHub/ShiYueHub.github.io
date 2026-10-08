@@ -40,7 +40,7 @@ npm run preview
 
 推送到 `main` 后，GitHub Actions 执行 `npm ci` 和 `npm run build`，发布 `dist/`。根站点使用默认 `base: /`。确认工作流成功后检查正式网站。
 
-隐私政策地址为 `https://shiyuehub.github.io/games/slime-post/privacy/`，入口位于《史莱姆邮差》详情页页脚。政策主体使用用户确认已更名的「拾月小屋（ShiYueHub，个人主体：高鹏飞）」，与 TapTap 资料页的中文厂商名及个人认证主体保持一致。隐私专用邮箱为已注册的 `shiyuehub@proton.me`；TapTap 游戏详情页及官方社区也可联系开发者。合并部署后，需用中国大陆无代理网络确认页面可访问，再将该地址填入 TapTap；GitHub Pages 部署成功不代表审核端一定可访问。
+隐私政策地址为 `https://shiyuehub.github.io/games/slime-post/privacy/`，入口位于《史莱姆邮差》详情页页脚。政策主体使用用户确认已更名的「拾月小屋（ShiYueHub）」，与 TapTap 资料页的中文厂商名保持一致；公开政策不显示个人姓名。隐私专用邮箱为已注册的 `shiyuehub@proton.me`；TapTap 游戏详情页及官方社区也可联系开发者。合并部署后，需用中国大陆无代理网络确认页面可访问，再将该地址填入 TapTap；GitHub Pages 部署成功不代表审核端一定可访问。
 
 ## 内容约定
 
